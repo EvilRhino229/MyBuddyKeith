@@ -3,7 +3,7 @@ const express = require('express')
 const fs = require('fs')
 const app = express()
 const port = 3000;
-const server = app.listen(port);
+const server = app.listen(process.env.PORT || 3000);
 const emit = require('events').EventEmitter
 
 const quotes =
