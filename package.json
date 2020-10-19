@@ -1,0 +1,32 @@
+{
+  "name": "mybuddykeith",
+  "version": "0.0.1",
+  "description": "My Buddy Keith developed an API once that returned a random quote from him...\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvilRhino229/MyBuddyKeith.git"
+  },
+  "keywords": [
+    "quote"
+  ],
+  "author": "Tim Kepple",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvilRhino229/MyBuddyKeith/issues"
+  },
+  "homepage": "https://github.com/EvilRhino229/MyBuddyKeith#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "livereload": "^0.9.1",
+    "mongoose": "^5.9.11",
+    "reload": "^3.1.1"
+  }
+}
